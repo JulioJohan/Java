@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Ejercicio2 {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in); 
+		double[] numeros = new double[5];
+	
+		System.out.println("Guardando numeros");
+		for(int i = 0; i < 5; i++) {
+			System.out.print("Ingresa un numero: ");
+			numeros[i] = entrada.nextDouble();
+		}
+		
+	
+		for(double i: numeros) {
+			System.out.println("Numero Ingresado: " + i );
+		}
+		
+	}
+}

@@ -1,0 +1,14 @@
+package holamundo;
+
+public class HolaMundo {
+	public static void main(String[] args) {
+		System.out.println("Hola Mundo"); //esto es un hola mundo
+		System.out.println("Curso Java");
+		//Comentario
+		/*Comentario
+		 * para multiples linea*/
+		byte entero = 12;
+		System.out.println("Numero entero :" + entero);
+		
+	}
+}

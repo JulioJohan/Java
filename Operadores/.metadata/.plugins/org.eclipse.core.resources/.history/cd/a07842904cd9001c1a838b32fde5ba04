@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Ejercicio3 {
+	public static void main (String [] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		float guillermo,luis,juan;
+		
+		System.out.println("Ingresa la cantidad de guillermo: ");
+		guillermo = entrada.nextFloat();
+		
+		luis = guillermo / 2;
+		juan = luis + guillermo ;
+		juan /= 2;
+		
+		System.out.println("Cantidad de Guillermo: " + guillermo);
+		System.out.println("Cantidad de Juan: " + juan);
+		System.out.println("Cantidad de luis: " + luis);
+
+		
+	}
+}

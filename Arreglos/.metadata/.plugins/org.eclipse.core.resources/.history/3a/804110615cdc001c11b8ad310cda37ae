@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class Ejercicio1 {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		int n1,n2,n3,n4,n5;
+		
+		
+		
+		n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el primer numero: "));
+		n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el segundo numero: "));
+		n3 = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el tercer numero: "));
+		n4 =  Integer.parseInt(JOptionPane.showInputDialog("Ingresa el cuarto numero: "));
+		n5 = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el quinto numero: "));
+		
+		int[] numeros = new int [5];
+	
+		
+//		System.out.println("Digita el primer numero: ");
+		for(int i:numeros ) {
+//			System.out.println("Ingresa el primer numero: ");
+			numeros[i] = entrada.nextInt();
+		}
+		
+		
+		while(numeros.length < 6) {
+			n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingresa cinco numeros: "));
+			for(int i:numeros) {
+				System.out.println("Ingresa el primer numero");
+				numeros[i] =entrada.nextInt();
+			}
+			for (int i: numeros) {
+				System.out.println("Numeros: " + i);
+			}
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

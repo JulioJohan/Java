@@ -1,0 +1,23 @@
+package holamundo;
+
+public class HolaMundo {
+	public static void main(String[] args) {
+		System.out.println("Hola Mundo"); //esto es un hola mundo
+		System.out.println("Curso Java");
+		//Comentario
+		/*Comentario
+		 * para multiples linea*/
+		//entero
+		int entero = 12;
+		//decimal
+		float fl = 12.3f;
+		//decimal 64bits
+		double decimal = 12.21;
+		//Caracter
+		char caracter = 'a';
+		
+		
+		System.out.println("Caracter :" + caracter);
+		
+	}
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Ejercicio3 {
+	public static void main (String [] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		int guillermo = 10,luis,juan;
+		
+		luis = guillermo / 2;
+		juan = luis + guillermo / 2;
+		
+		System.out.println("cantidad de guillermo: " + guillermo);
+		System.out.println("cantidad de luis: " + luis);
+		System.out.println("cantidad de juan: " + juan);
+
+	}
+}

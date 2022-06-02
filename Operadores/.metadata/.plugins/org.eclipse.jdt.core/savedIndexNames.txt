@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+C:\Users\julio\OneDrive\Documentos\curso-java\Operadores\.metadata\.plugins\org.eclipse.jdt.core
+794945367.index
+358920302.index
+1650688248.index
+3073799219.index
+3760457914.index
+1865797976.index
+302609527.index
+3274760708.index
+4228322651.index
+1695433953.index
+2332042701.index

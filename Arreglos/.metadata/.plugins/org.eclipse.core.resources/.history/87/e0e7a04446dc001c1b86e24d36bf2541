@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class LlenarArreglos {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		int nHeroes;
+		
+		nHeroes = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el numero de Heroes: "));
+		
+		
+		String[] heroes = new String [nHeroes];
+		
+		System.out.println("Digita los nombres de los heroes: ");
+		for(int i = 0; i<nHeroes; i++) {
+			System.out.println("Digita un heroe");
+			heroes[nHeroes] = entrada.next();
+		}
+		System.out.println("Los nombres de los heroes son: ");
+		for (int i = 0; i <nHeroes; i++) {
+			System.out.println(heroes[i]);
+		}
+		
+		
+	}
+}

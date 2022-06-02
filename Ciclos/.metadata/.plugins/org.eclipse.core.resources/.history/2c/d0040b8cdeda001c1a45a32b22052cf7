@@ -1,0 +1,21 @@
+import javax.swing.JOptionPane;
+
+public class Ejercicio5 {
+	public static void main(String[] args) {
+	int numero,intentos = 0,numeroAleatorio;
+	
+	numeroAleatorio = (int)(Math.random()*100+1);//generar un numero aleatorio
+	
+	System.out.println(numeroAleatorio);
+	
+	
+	do {
+		numero = Integer.parseInt(JOptionPane.showInputDialog("Ingresa un numero: "));	
+		intentos ++;
+		if(numero == numeroAleatorio) {
+			JOptionPane.showMessageDialog(null, "Ganaste: \n" +"numero de intentos" + intentos );
+		}
+	}while(numero == numeroAleatorio);
+	
+	}
+}

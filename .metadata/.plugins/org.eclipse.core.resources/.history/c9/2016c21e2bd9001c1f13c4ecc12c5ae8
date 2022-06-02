@@ -1,0 +1,16 @@
+package introduccion;
+
+import javax.swing.JOptionPane;
+
+public class Introduccion {
+
+	public static void main (String[] args) {
+		String cadena;
+		int entero;
+		char letra;
+		double decimal;
+		
+		cadena = JOptionPane.showInputDialog("Digite una cadena");
+		
+	}
+}

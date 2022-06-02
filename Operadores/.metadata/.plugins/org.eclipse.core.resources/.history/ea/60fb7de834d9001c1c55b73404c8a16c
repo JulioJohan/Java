@@ -1,0 +1,20 @@
+package math;
+
+import java.util.Scanner;
+
+public class Match {
+
+	public static void main(String[] args) {
+	Scanner entrada = new Scanner(System.in);
+	double raiz = Math.sqrt(36.67);//Raiz cuadrada
+	
+	double base = 5,exponente = 2;
+	double resultado = Math.pow(base, exponente);//elevado
+	
+	double numero = 4.56;
+	double res = Math.round(numero);//redondear
+	
+	System.out.println(raiz);
+	
+	}
+}

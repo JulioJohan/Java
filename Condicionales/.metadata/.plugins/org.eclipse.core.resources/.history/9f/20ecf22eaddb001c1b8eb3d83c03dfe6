@@ -1,0 +1,22 @@
+import javax.swing.JOptionPane;
+
+public class Ejercicio11 {
+	public static void main(String[] args) {
+		int n1,n2;
+		
+		n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el primer numero: "));
+		n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingresa el segundo numero: "));
+		
+		
+		switch (key) {
+		case value:
+			
+			break;
+
+		default:
+			break;
+		}
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+
+
+//length para saber cuanto tiene un arreglo
+public class ForEach {
+	public static void main(String[] args) {
+		String[] nombres = {"Karla","Johan","Denis","Maria"};
+		
+		for(String i: nombres) {
+			System.out.println(i);
+		}
+	}
+}

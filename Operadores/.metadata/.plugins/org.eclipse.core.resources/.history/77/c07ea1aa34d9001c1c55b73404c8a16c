@@ -1,0 +1,14 @@
+package math;
+
+import java.util.Scanner;
+
+public class Match {
+
+	public static void main(String[] args) {
+	Scanner entrada = new Scanner(System.in);
+	double raiz = Math.sqrt(36.67);
+	
+	System.out.println(raiz);
+	
+	}
+}

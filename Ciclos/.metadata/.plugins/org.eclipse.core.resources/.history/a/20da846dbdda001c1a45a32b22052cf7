@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+/*
+ * While(condicion){
+ * Instrucciones;
+ * }
+ * */
+
+
+
+public class While {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		int i=1, contador;
+		
+		System.out.println("Digite cuanto numeros quieres en pantalla: ");
+		contador = entrada.nextInt();
+		
+		while(i <= contador) { 
+			System.out.println(i);
+			i++;
+		}
+		
+		
+	}
+}
